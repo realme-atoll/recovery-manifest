@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github-remote" fetch="https://github.com" />
+
+  <!-- Realme SM7125 TeamWin Recovery Project (TWRP) Device Tree -->
+  <project path="device/realme/sm7125" name="realme-atoll/android_device_realme_sm7125-TWRP" remote="github-remote" revision="aosp-16" />
+</manifest>
