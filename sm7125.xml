@@ -3,5 +3,5 @@
   <remote name="github-remote" fetch="https://github.com" />
 
   <!-- Realme SM7125 OrangeFox Recovery Project (OFRP) Device Tree -->
-  <project path="device/realme/sm7125" name="realme-atoll/android_device_realme_sm7125-OFRP" remote="github-remote" revision="aosp-16" />
+  <project path="device/realme/sm7125" name="realme-atoll/android_device_realme_sm7125-OFRP" remote="github-remote" revision="fox_16.0" />
 </manifest>
