@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github-remote" fetch="https://github.com" />
-  <remote name="recovery-fork" fetch="https://github.com/nikhilpal2705" />
 
   <!-- Realme SM7125 TeamWin Recovery Project (TWRP) Device Tree -->
   <project path="device/realme/sm7125" name="realme-atoll/android_device_realme_sm7125-TWRP" remote="github-remote" revision="twrp-12.1" />
-  <!-- Ensure the unified products report dynamic Super size on first boot. -->
-  <extend-project name="android_bootable_recovery" remote="recovery-fork" revision="realme-atoll/android-12.1-super-size-init" />
 </manifest>
